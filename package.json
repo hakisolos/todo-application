@@ -12,6 +12,7 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.53.0",
     "hono": "^4.8.10",
-    "hono-sessions": "^0.8.0"
+    "hono-sessions": "^0.8.0",
+    "jsonwebtoken": "^9.0.2"
   }
 }

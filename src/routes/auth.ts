@@ -34,8 +34,10 @@ auth.post("/login", async(c) => {
     if(error) {
         return c.json({status: 500, error: error}, 500)
     }
-    const session = c.get("session")
+    
 
 })
 
 export default auth
+
+
